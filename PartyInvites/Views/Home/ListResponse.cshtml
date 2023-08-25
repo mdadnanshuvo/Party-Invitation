@@ -1,0 +1,18 @@
+﻿@model List<GuestRespond>
+
+    @foreach(var i in Model)
+    {
+        <li>
+            <ul>
+                @i.Name
+            </ul>
+
+        <ul>
+            @i.Email
+        </ul>
+
+        <ul>
+            @i.Phone
+        </ul>
+        </li>
+    }
